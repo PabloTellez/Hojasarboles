@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Diplomata&display=swap" rel="stylesheet">
 </head>
 <style>
-    body {background-image: url('../Téllez\ del\ Saz\ -\ Pablo/Imagenes/otono2.jpg');
+    body {background-image: url('Imagenes/otono2.jpg');
             background-repeat:no-repeat;
             background-size: cover;}
         #container {border: 20px rgb(0, 247, 164);
@@ -29,6 +29,15 @@
     h2 {font-family: 'Diplomata', cursive;
         color:greenyellow;
         font-size: 60px;}
+
+        @media only screen and (max-width:950px){ /* de 800 para abajo */
+#container {width:50%;}                  /* tamaño tablet */
+}
+
+@media only screen and (max-width:600px){ /* de 500 para abajo */
+       #container {width:100%;}           /* tamaño móvil */
+   }
+   
 </style>
 <body>
 <div id="container"> 
